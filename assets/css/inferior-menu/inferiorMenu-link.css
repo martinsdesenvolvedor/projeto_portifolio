@@ -1,0 +1,9 @@
+.inferior-menu__link {
+  text-decoration: none;
+
+  margin-bottom: 20px;
+}
+.inferior-menu__link img {
+  width: 25px;
+  height: 25px;
+}

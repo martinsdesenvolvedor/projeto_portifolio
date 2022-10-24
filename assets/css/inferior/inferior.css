@@ -1,0 +1,6 @@
+.inferior {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: rgb(115, 214, 232);
+}

@@ -1,0 +1,6 @@
+.hobbies {
+  background: rgb(234, 225, 203);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4rem 7rem;
+}

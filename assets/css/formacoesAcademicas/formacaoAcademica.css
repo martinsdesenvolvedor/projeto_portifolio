@@ -1,0 +1,6 @@
+.formacao-academica {
+  width: calc(50% - 5rem);
+  margin-right: 5rem;
+  justify-content: space-evenly;
+  padding: 4rem 7rem;
+}

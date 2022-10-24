@@ -1,0 +1,10 @@
+.rodape-menu__link {
+  color: rgb(234, 225, 203);
+  text-decoration: none;
+  margin-right: 8px;
+}
+
+.rodape-menu__link img {
+  width: 25px;
+  height: 25px;
+}

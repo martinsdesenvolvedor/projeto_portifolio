@@ -1,0 +1,6 @@
+.formacoes-academicas {
+  background: rgb(46, 45, 45);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4rem 7rem;
+}

@@ -1,0 +1,6 @@
+.skills {
+  display: flex;
+  background: rgb(46, 45, 45);
+  flex-wrap: wrap;
+  padding: 4rem 7rem;
+}

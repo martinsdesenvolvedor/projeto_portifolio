@@ -1,0 +1,4 @@
+.superior {
+  display: flex;
+  flex-direction: column;
+}
