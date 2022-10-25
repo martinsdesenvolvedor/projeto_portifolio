@@ -13,5 +13,6 @@ body * {
 @media screen and (min-width: 0) {
   .cabecalho {
     padding: 1rem 1.5rem;
+    background-size: cover;
   }
 }
