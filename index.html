@@ -7,7 +7,6 @@
     <title>Portifólio</title>
     <link href="https://fonts.googleapis.com/css2?family=Domine&family=Raleway&display=swap" rel="stylesheet"/>
     <link href="./assets/css/reset.css" rel="stylesheet" />
-    <link href="./assets/css/base.css" rel="stylesheet" />
     <link href="./assets/css/style.css" rel="stylesheet" />
     <link href="./assets/css/cabecalho.css" rel="stylesheet" />
     <link href="./assets/css/cabecalho-conteudo.css" rel="stylesheet" />
@@ -43,6 +42,8 @@
     <link href="./assets/css/formacoesAcademicas/formacoesAcademicas-titulo.css" rel="stylesheet"/>
     <link href="./assets/css/formacoesAcademicas/formacaoAcademica.css" rel="stylesheet"/>
     <link href="./assets/css/formacoesAcademicas/formacaoAcademica-img.css" rel="stylesheet"/>
+    <link href="./assets/css/formacoesAcademicas/formacaoAcademica-paragrafo.css" rel="stylesheet"/>
+    <link href="./assets/css/formacoesAcademicas/formacoes.css" rel="stylesheet"/>
     <link href="./assets/css/contatos/contatos.css" rel="stylesheet"/>
     <link href="./assets/css/contatos/contatos-titulo.css" rel="stylesheet"/>
     <link href="./assets/css/contatos/contato.css" rel="stylesheet"/>
@@ -53,6 +54,7 @@
     <link href="./assets/css/formulario/form-input.css" rel="stylesheet"/>
     <link href="./assets/css/meuContato/meuContato.css" rel="stylesheet"/>
     <link href="./assets/css/meuContato/meuContato-titulo.css" rel="stylesheet"/>
+    <link href="./assets/css/meuContato/meuContato-radio.css" rel="stylesheet"/>
     <link href="./assets/css/horarioContato/horario.css" rel="stylesheet"/>
     <link href="./assets/css/selectContato/select.css" rel="stylesheet"/>
     <link href="./assets/css/contatos/contatos-submit.css" rel="stylesheet"/>
@@ -66,7 +68,7 @@
   </head>
   <body>
     <header class="cabecalho" id="inicio">
-      <div class="cabecalho__conteudo base">
+      <div class="cabecalho__conteudo">
         <div class="superior">
           <img
             class="superior__imagem"
@@ -96,7 +98,7 @@
         </nav>
       </div>
 
-      <div class="inferior-conteudo base">
+      <div class="inferior-conteudo">
         <h1 class="inferior-conteudo__titulo">
           Olá, meu nome é Welliton Martins e construo páginas web
         </h1>
@@ -142,13 +144,13 @@
           <p class="conteudo__paragrafo">
             Eu sou formado em Gestão de Segurança Pública pela Universidade
             Estadual de Goiás e Bacharel em Teologia pela Faculdade Teológica do
-            Rio de Janeiro.
-          </p>
-          <p class="conteudo__paragrafo">
-            Tenho 36 anos, sou casado e tenho duas filhas. Moro na região
+            Rio de Janeiro. Tenho 36 anos, sou casado e tenho duas filhas. Moro na região
             metropolitana de Goiânia, na cidade de Senador Canedo - Go.
             Atualmente trabalho de serviços gerais no Centro de Instrução e Tiro
             da PM do Estado de Goiás, pela prefeitaura da cidade.
+          </p>
+          <p class="conteudo__paragrafo">
+            Tenho me dedicado encansavelmente para aprender a arte da programação desde Abril de 2022 e desde entao tenho engressado em cursos livres, principalmente da plataforma da Alura. Por esta plataforma, ja fiz alguns cursos de Lógica de Programção, Html5, Css3 e JavaScript. Estou cada dia mais encantado com o Front-End e pretendo buscar cada vez mais se especializar nesta área.
           </p>
           <p class="conteudo__paragrafo">
             Gosto de praticar esportes e levar uma vida saudável.
@@ -231,12 +233,14 @@
 
       <section class="formacoes-academicas" id="formacao">
         <h4 class="formacoes-academicas__titulo">Formações Acadêmicas</h4>
+        <div class="formacoes">
         <div class="formacao-academica">
           <img
             src="./assets/img/ueg.jpeg"
             alt=""
             class="formacao-academica__img"
           />
+          <p class="formacao-academica__paragrafo">Gestão em Segurança Pública</p>
         </div>
         <div class="formacao-academica">
           <img
@@ -244,10 +248,12 @@
             alt=""
             class="formacao-academica__img"
           />
+          <p class="formacao-academica__paragrafo">Bacharel em Teologia</p>
         </div>
+      </div>
       </section>
 
-      <section class="projetos container">
+      <section class="projetos">
         <div>
           <h5>Projetos</h5>
         </div>
@@ -285,16 +291,24 @@
             <textarea cols="70" rows="10" id="mensagem"  class="form__input" required></textarea>
         
 
-          <fieldset class="meu-contato">
+          <fieldset >
+           <div class="meu-contato">
             <legend class="meu-contato__titulo">Como prefere o meu contato?</legend>
+            <div class="meu-contato__radio">
             <label for="radio-email"></label>
             <input type="radio" name="contato" value="email" id="radio-email">Email</input>
+          </div>
 
+          <div class="meu-contato__radio">
             <label for="radio-telefone"></label>
             <input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</input>
+          </div>
 
+          <div class="meu-contato__radio">
             <label for="radio-whatsapp"></label>
             <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</input>
+          </div>
+          </div>
           </fieldset>
 
           <fieldset>

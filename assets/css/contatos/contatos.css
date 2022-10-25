@@ -2,3 +2,9 @@
   background: rgb(234, 225, 203);
   padding: 4rem 7rem;
 }
+
+@media screen and (min-width: 0) {
+  .contatos {
+    padding: 3rem 1rem;
+  }
+}

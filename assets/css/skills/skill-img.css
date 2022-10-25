@@ -1,3 +1,9 @@
 .skill__img {
   height: 200px;
 }
+
+@media screen and (min-width: 0) {
+  .skill__img {
+    height: 45vh;
+  }
+}

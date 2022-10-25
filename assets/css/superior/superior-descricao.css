@@ -5,3 +5,11 @@
   padding: 1rem;
   color: rgb(234, 225, 203);
 }
+
+@media screen and (min-width: 0) {
+  .superior__descricao {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0;
+  }
+}

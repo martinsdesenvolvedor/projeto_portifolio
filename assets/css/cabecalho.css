@@ -1,10 +1,17 @@
 body * {
   box-sizing: border-box;
+  font-family: Raleway, sans-serif;
 }
 .cabecalho {
   background-image: url(../img/m8.jpg);
-  padding: 20px 0;
+  padding: 1rem 7rem;
   background-repeat: no-repeat;
   background-size: auto;
   color: rgb(234, 225, 203);
+}
+
+@media screen and (min-width: 0) {
+  .cabecalho {
+    padding: 1rem 1.5rem;
+  }
 }

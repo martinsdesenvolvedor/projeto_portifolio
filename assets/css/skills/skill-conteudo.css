@@ -5,3 +5,10 @@
   font-weight: 500;
   font-size: 1.375rem;
 }
+
+@media screen and (min-width: 0) {
+  .skill__conteudo {
+    padding: 2rem;
+    font-size: 2rem;
+  }
+}

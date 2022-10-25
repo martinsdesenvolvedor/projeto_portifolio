@@ -4,3 +4,9 @@
   border-radius: 50%;
   background: rgb(234, 225, 203);
 }
+
+@media screen and (min-width: 0) {
+  .superior__imagem {
+    margin: 1rem 7rem;
+  }
+}

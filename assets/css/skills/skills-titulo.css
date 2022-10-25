@@ -6,3 +6,9 @@
   margin-bottom: 1.5rem;
   color: rgb(234, 225, 203);
 }
+
+@media screen and (min-width: 0) {
+  .skills__titulo {
+    margin-bottom: 2rem;
+  }
+}

@@ -8,3 +8,14 @@
   width: 25px;
   height: 25px;
 }
+
+@media screen and (min-width: 0) {
+  .rodape-menu__link {
+    margin-right: 1rem;
+  }
+
+  .rodape-menu__link img {
+    width: 30px;
+    height: 30px;
+  }
+}

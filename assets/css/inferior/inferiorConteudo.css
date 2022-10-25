@@ -4,3 +4,10 @@
 
   margin-top: 6.25rem;
 }
+
+@media screen and (min-width: 0) {
+  .inferior-conteudo {
+    width: 100%;
+    margin-top: 2rem;
+  }
+}

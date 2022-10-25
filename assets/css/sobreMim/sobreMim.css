@@ -1,5 +1,11 @@
 .sobre-mim {
   background: #fdfdfd;
-  padding: 4rem 0;
+  padding: 4rem 7rem;
   background: rgb(234, 225, 203);
+}
+
+@media screen and (min-width: 0) {
+  .sobre-mim {
+    padding: 3rem 1.5rem;
+  }
 }

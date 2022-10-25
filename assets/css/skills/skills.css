@@ -4,3 +4,9 @@
   flex-wrap: wrap;
   padding: 4rem 7rem;
 }
+
+@media screen and (min-width: 0) {
+  .skills {
+    padding: 3rem 1rem;
+  }
+}
