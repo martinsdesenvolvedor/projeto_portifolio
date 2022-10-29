@@ -1,13 +1,15 @@
 .inferior-conteudo__titulo {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 700;
-  line-height: 50px;
-  margin-bottom: 20px;
-  text-align: justify;
+  line-height: 3.125rem;
+  margin-bottom: 1.25rem;
+  text-align: center;
 }
 
-@media screen and (min-width: 0) {
+@media screen and (max-width: 768px) {
   .inferior-conteudo__titulo {
+    line-height: 2.5rem;
+    text-align: center;
     font-size: 2rem;
   }
 }

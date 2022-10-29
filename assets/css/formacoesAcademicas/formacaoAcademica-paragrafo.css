@@ -5,7 +5,7 @@
   font-size: 1.375rem;
 }
 
-@media screen and (min-width: 0) {
+@media screen and (max-width: 768px) {
   .formacao-academica__paragrafo {
     margin-bottom: 2rem;
     font-size: 1.7rem;

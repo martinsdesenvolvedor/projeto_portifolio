@@ -7,3 +7,9 @@
   padding: 3rem 0;
   border: 0.5px solid black;
 }
+
+@media screen and (max-width: 768px) {
+  .rodape {
+    padding: 3rem 1rem;
+  }
+}

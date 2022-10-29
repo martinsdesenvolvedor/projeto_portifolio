@@ -1,9 +1,9 @@
 .contato__img {
-  height: 640px;
+  height: 708px;
   width: calc(60% - 7rem);
 }
 
-@media screen and (min-width: 0) {
+@media screen and (max-width: 768px) {
   .contato__img {
     display: none;
   }

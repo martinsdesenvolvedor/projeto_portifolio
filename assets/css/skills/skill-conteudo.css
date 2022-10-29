@@ -6,7 +6,7 @@
   font-size: 1.375rem;
 }
 
-@media screen and (min-width: 0) {
+@media screen and (max-width: 768px) {
   .skill__conteudo {
     padding: 2rem;
     font-size: 2rem;

@@ -4,14 +4,14 @@
   margin-bottom: 2rem;
   margin-right: 5rem;
   background: rgb(234, 225, 203);
-  width: calc(33% - 5rem);
+  width: calc(33.33% - 5rem);
   border: 1px solid black;
 }
 
-@media screen and (min-width: 0) {
+@media screen and (max-width: 768px) {
   .skill {
+    margin-right: 0;
     width: 100%;
     height: 60vh;
-    margin-right: 0;
   }
 }

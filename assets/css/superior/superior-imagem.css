@@ -5,8 +5,8 @@
   background: rgb(234, 225, 203);
 }
 
-@media screen and (min-width: 0) {
+@media screen and (max-width: 768px) {
   .superior__imagem {
-    margin: 1rem 6rem;
+    margin-bottom: 0.7rem;
   }
 }

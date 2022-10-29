@@ -3,7 +3,7 @@
   padding: 4rem 7rem;
 }
 
-@media screen and (min-width: 0) {
+@media screen and (max-width: 768px) {
   .contatos {
     padding: 3rem 1rem;
   }

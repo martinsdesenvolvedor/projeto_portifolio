@@ -3,7 +3,7 @@
   display: inline-block;
 }
 
-@media screen and (min-width: 0) {
+@media screen and (max-width: 768px) {
   .form__label {
     font-size: 1.3rem;
   }

@@ -5,7 +5,7 @@
   padding: 4rem 7rem;
 }
 
-@media screen and (min-width: 0) {
+@media screen and (max-width: 768px) {
   .formacoes-academicas {
     padding: 3rem 0 2rem 0;
   }
