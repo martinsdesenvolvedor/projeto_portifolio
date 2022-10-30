@@ -4,7 +4,7 @@ body * {
 }
 .cabecalho {
   background-image: url(../img/m8.jpg);
-  padding: 1rem 7rem;
+  padding: 2rem 7rem;
   background-repeat: no-repeat;
   background-size: auto;
   color: rgb(234, 225, 203);

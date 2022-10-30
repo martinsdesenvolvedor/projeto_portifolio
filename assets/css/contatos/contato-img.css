@@ -1,5 +1,6 @@
 .contato__img {
-  height: 708px;
+  height: 95vh;
+
   width: calc(60% - 7rem);
 }
 

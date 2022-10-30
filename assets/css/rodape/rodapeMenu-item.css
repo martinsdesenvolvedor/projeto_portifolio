@@ -1,2 +1,9 @@
 .rodape-menu__item {
+  margin-right: 0.8rem;
+}
+
+@media screen and (max-width: 768px) {
+  .rodape-menu__item {
+    margin-right: 0.1rem;
+  }
 }
