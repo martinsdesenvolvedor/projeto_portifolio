@@ -6,13 +6,13 @@
   margin: 1rem;
   background: rgb(234, 225, 203);
   width: 30%;
+  height: 450px;
   border: 1px solid black;
 }
 
 @media screen and (max-width: 768px) {
   .skill {
-    margin: 1rem 0;
+    margin-bottom: 1rem;
     width: 100%;
-    height: 60vh;
   }
 }
