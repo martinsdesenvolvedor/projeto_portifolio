@@ -6,8 +6,6 @@
   margin-bottom: 2rem;
   margin: 1rem;
   width: 30%;
-  height: 450px;
-  border: 1px solid black;
 }
 
 @media screen and (max-width: 768px) {

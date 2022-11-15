@@ -1,0 +1,10 @@
+.cursos {
+  background: rgb(234, 225, 203);
+  padding: 4rem 7rem;
+}
+
+@media screen and (max-width: 768px) {
+  .cursos {
+    padding: 2rem 1rem;
+  }
+}

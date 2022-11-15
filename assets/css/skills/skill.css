@@ -6,8 +6,6 @@
   margin: 1rem;
   background: rgb(234, 225, 203);
   width: 30%;
-  height: 450px;
-  border: 1px solid black;
 }
 
 @media screen and (max-width: 768px) {

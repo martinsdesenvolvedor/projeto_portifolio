@@ -1,0 +1,17 @@
+.cursos__link {
+  text-decoration: none;
+  color: rgb(19, 18, 18);
+  transition: 0.3s;
+}
+
+.cursos__link:hover {
+  font-size: 1.1rem;
+  text-decoration: underline;
+  color: rgb(188, 157, 2);
+}
+
+@media screen and (max-width: 768px) {
+  .cursos__link {
+    font-size: 0.75rem;
+  }
+}

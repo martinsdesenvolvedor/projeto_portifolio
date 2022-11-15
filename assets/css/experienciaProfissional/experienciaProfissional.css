@@ -1,0 +1,10 @@
+.experiencia-profissional {
+  background: rgb(46, 45, 45);
+  padding: 4rem 7rem;
+}
+
+@media screen and (max-width: 768px) {
+  .experiencia-profissional {
+    padding: 2rem 1rem;
+  }
+}

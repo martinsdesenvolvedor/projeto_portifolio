@@ -1,0 +1,9 @@
+.experiencia__botao {
+  margin-left: 1.7rem;
+}
+
+@media screen and (max-width: 768px) {
+  .experiencia__botao {
+    margin-left: 0;
+  }
+}

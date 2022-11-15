@@ -1,0 +1,11 @@
+.experiencia__conteudo--paragrafo {
+  color: rgb(234, 225, 203);
+  font-size: 0.6rem;
+  margin-bottom: 0.3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .experiencia__conteudo--paragrafo {
+    font-size: 0.8rem;
+  }
+}

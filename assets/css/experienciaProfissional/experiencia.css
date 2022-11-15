@@ -1,0 +1,20 @@
+.experiencia {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+#invertido {
+  flex-direction: row-reverse;
+  margin-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .experiencia {
+    flex-direction: column;
+  }
+
+  #invertido {
+    flex-direction: column;
+  }
+}

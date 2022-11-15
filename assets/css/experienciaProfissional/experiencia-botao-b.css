@@ -1,0 +1,19 @@
+.experiencia__botao--b {
+  padding: 0.3rem;
+  border-radius: 10px;
+  background: goldenrod;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  color: black;
+}
+
+.experiencia__botao--b:hover {
+  background: rgb(228, 178, 52);
+  font-size: 1rem;
+}
+
+button b {
+  text-decoration: none;
+}

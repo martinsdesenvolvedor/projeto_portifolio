@@ -1,4 +1,10 @@
 .skill__img {
   width: 100%;
-  height: 90%;
+  height: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .skill__img {
+    height: 250px;
+  }
 }
