@@ -17,3 +17,9 @@
 button b {
   text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+  .experiencia__botao--b {
+    padding: 0.5rem;
+  }
+}

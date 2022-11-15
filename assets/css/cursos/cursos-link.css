@@ -14,4 +14,8 @@
   .cursos__link {
     font-size: 0.75rem;
   }
+
+  .cursos__link:hover {
+    font-size: 0.8rem;
+  }
 }

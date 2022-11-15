@@ -6,3 +6,9 @@
   margin-bottom: 2.5rem;
   width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .experiencia-profissional__titulo {
+    font-size: 1.5rem;
+  }
+}

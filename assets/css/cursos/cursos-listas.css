@@ -6,5 +6,6 @@
 @media screen and (max-width: 768px) {
   .cursos__listas {
     flex-direction: column;
+    padding-left: 1rem;
   }
 }
