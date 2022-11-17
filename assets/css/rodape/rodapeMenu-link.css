@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 768px) {
   .rodape-menu__link {
-    margin-right: 1rem;
+    margin-right: 0.5rem;
   }
 
   .rodape-menu__link img {
