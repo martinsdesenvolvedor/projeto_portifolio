@@ -1,11 +1,11 @@
 .skill {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   margin-bottom: 2rem;
-  margin: 1rem;
+  margin: 1rem 0.3rem;
   background: rgb(234, 225, 203);
-  width: 30%;
+  width: calc(25% - 0.6rem);
 }
 
 @media screen and (max-width: 768px) {

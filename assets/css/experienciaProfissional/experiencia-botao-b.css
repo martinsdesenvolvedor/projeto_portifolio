@@ -2,16 +2,16 @@
   padding: 0.3rem;
   border-radius: 10px;
   background: goldenrod;
-  font-size: 0.8rem;
-  font-weight: bold;
+  font-size: 0.9rem;
+  font-weight: 500;
   cursor: pointer;
   transition: 0.3s;
   color: black;
 }
 
 .experiencia__botao--b:hover {
-  background: rgb(228, 178, 52);
-  font-size: 1rem;
+  background: rgb(234, 225, 203);
+  font-weight: 700;
 }
 
 button b {

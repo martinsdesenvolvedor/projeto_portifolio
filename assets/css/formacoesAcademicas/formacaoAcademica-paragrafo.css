@@ -2,12 +2,13 @@
   color: rgb(234, 225, 203);
   text-align: center;
   font-weight: 500;
-  font-size: 1.375rem;
+  font-size: 1.2rem;
 }
 
 @media screen and (max-width: 768px) {
   .formacao-academica__paragrafo {
     margin-bottom: 4rem;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
   }
 }
