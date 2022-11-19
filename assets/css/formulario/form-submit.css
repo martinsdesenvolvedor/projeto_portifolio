@@ -3,11 +3,11 @@
   color: rgb(46, 45, 45);
   width: 60%;
   padding: 0.5rem;
-  border-radius: 5px;
+  border-radius: 10px;
   background: rgb(234, 225, 203);
   cursor: pointer;
   transition: 0.7s;
-  border: 0.7px solid black;
+  border: 0.1px solid black;
   box-shadow: 0.5px 0.5px 0.5px 0.5px black;
   margin-top: 0.5rem;
 }

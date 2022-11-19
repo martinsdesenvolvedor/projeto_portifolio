@@ -1,6 +1,8 @@
 .form__input {
   padding: 0.6rem;
   width: 100%;
+  border-radius: 10px;
+  border: 0.7px solid rgb(228, 221, 221);
 }
 
 @media screen and (max-width: 768px) {
