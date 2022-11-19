@@ -1,11 +1,11 @@
-.experiencia__conteudo--titulo {
+.projeto__conteudo--titulo {
   color: rgb(234, 225, 203);
   text-align: center;
   margin-bottom: 0.3rem;
 }
 
 @media screen and (max-width: 768px) {
-  .experiencia__conteudo--titulo {
+  .projeto__conteudo--titulo {
     margin-bottom: 0.5rem;
   }
 }

@@ -1,7 +1,6 @@
 .contato__img {
-  height: 100vh;
-
-  width: calc(60% - 7rem);
+  height: 500px;
+  width: 40%;
 }
 
 @media screen and (max-width: 768px) {

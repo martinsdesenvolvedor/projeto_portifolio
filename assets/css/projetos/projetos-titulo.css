@@ -1,4 +1,4 @@
-.experiencia-profissional__titulo {
+.projetos__titulo {
   color: rgb(234, 225, 203);
   text-align: center;
   font-size: 2.5rem;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .experiencia-profissional__titulo {
-    font-size: 1.5rem;
+  .projetos__titulo {
+    font-size: 1.7rem;
   }
 }

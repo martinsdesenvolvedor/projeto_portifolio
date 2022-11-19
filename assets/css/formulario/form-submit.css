@@ -1,4 +1,4 @@
-.contatos__submit {
+.form__submit {
   font-size: 1.375rem;
   color: rgb(46, 45, 45);
   width: 60%;
@@ -9,9 +9,16 @@
   transition: 0.7s;
   border: 0.7px solid black;
   box-shadow: 0.5px 0.5px 0.5px 0.5px black;
+  margin-top: 0.5rem;
 }
 
-.contatos__submit:hover {
+.form__submit:hover {
   background: rgb(46, 45, 45);
   color: rgb(234, 225, 203);
+}
+
+@media screen and (max-width: 768px) {
+  .form__submit {
+    margin-top: 0;
+  }
 }

@@ -1,25 +1,26 @@
-.experiencia__botao--b {
+.projeto__botao--a {
   padding: 0.3rem;
   border-radius: 10px;
-  background: goldenrod;
+  background: rgb(234, 225, 203);
   font-size: 0.9rem;
   font-weight: 500;
   cursor: pointer;
   transition: 0.3s;
-  color: black;
 }
 
-.experiencia__botao--b:hover {
-  background: rgb(234, 225, 203);
+.projeto__botao--a:hover {
+  background: goldenrod;
   font-weight: 700;
 }
 
-button b {
+button a {
   text-decoration: none;
+  color: black;
 }
 
 @media screen and (max-width: 768px) {
-  .experiencia__botao--b {
+  .projeto__botao--a {
     padding: 0.5rem;
+    margin-right: 0.5rem;
   }
 }

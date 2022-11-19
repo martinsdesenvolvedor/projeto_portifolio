@@ -1,9 +1,13 @@
 .contatos__titulo {
   color: rgb(46, 45, 45);
-
   text-align: center;
-
   font-size: 2.5rem;
   font-weight: 700;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .contatos__titulo {
+    margin-bottom: 1.5rem;
+  }
 }

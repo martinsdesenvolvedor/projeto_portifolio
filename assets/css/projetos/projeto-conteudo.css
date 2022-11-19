@@ -1,4 +1,4 @@
-.experiencia__conteudo {
+.projeto__conteudo {
   margin-left: 2rem;
 }
 
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .experiencia__conteudo {
+  .projeto__conteudo {
     margin-bottom: 1rem;
     display: flex;
     flex-direction: column;

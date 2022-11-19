@@ -4,8 +4,6 @@
   $email = $_POST['email'];
   $telefone = $_POST['telefone'];
   $mensagem = $_POST['mensagem'];
-  $como_prefere_meu_contato = $_POST['como prefere meu contato'];
-  $qual_horario_prefere_o_meu_contato = $_POST['qual horário prefere o meu contato'];
   $data_envio = date('d/m/Y');
   $hora_envio = date('H:i:s');
 
@@ -14,16 +12,15 @@
     <html>
       <p><b>Nome: </b>$nome</p>
       <p><b>E-mail: </b>$email</p>
+      <p><b>Telefone: </b>$telefone</p>
       <p><b>Mensagem: </b>$mensagem</p>
-      <p><b>Como prefere o meu contato: </b>$como_prefere_meu_contato</p>
-      <p><b>Qual horário prefere o meu contato: </b>$qual_horario_prefere_o_meu_contato</p>
       <p>Este e-mail foi enviado em <b>$data_envio</b> às <b>$hora_envio</b></p>
     </html>
   ";
   
   //Emails para quem será enviado o formulário
   $destino = "professorwellitonmartins336@gmail.com";
-  $assunto = "Contato pelo Site";
+  $assunto = "Contato pelo meu Portifolio";
 
   //Este sempre deverá existir para garantir a exibição correta dos caracteres
   $headers  = "MIME-Version: 1.0\n";
