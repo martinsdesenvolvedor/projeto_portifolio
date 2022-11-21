@@ -5,9 +5,8 @@
 }
 
 .cursos__link:hover {
-  font-size: 1.1rem;
   text-decoration: underline;
-  color: rgb(188, 157, 2);
+  color: rgb(225, 190, 15);
 }
 
 @media screen and (max-width: 768px) {
