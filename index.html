@@ -369,7 +369,7 @@
            <p class="projeto__conteudo--paragrafo">Desenvolvido no Challenge-Codificador da Alura</p>
            <div class="projeto__botao">
              <button class="projeto__botao--a"><a target="_blank" href="https://github.com/martinsdesenvolvedor/codificador_de_mensagens">Repositório</a></button>
-             <button class="projeto__botao--b"><a target="_blank" href="https://martinsdesenvolvedor.github.io/codificador_de_mensagens/">Ver demo</a></button>
+             <button class="projeto__botao--b"><a target="_blank" href="https://codificador-de-mensagens.vercel.app/">Ver demo</a></button>
            </div>
          </div>
          </div>
@@ -406,7 +406,11 @@
           <img src="./assets/img/contato.jpeg" alt="" class="contato__img" />
         
           <div class="formulario">
-            <form action="./assets/php/enviar.php" method="POST" class="form">
+            <form action="https://formsubmit.co/professorwellitonmartins336@gmail.com" method="POST" class="form">
+              <input type="hidden" name="_next" value="http://127.0.0.1:5501/sucesso.html">
+              <input type="hidden" name="_autoresponse" value="Recebi sua mensagem, obrigado pelo contato e logo retornarei.">
+              
+
               <label for="inputNome" class="form__label">Nome</label>
               <input type="text" id="inputNome" name="nome" class="form__input" required />
 
