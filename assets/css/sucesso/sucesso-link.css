@@ -1,0 +1,15 @@
+.sucesso__link {
+  color: rgb(234, 225, 203);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.sucesso__link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .sucesso__link {
+    font-size: 5rem;
+  }
+}

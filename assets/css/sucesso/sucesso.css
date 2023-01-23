@@ -1,0 +1,12 @@
+.sucesso {
+  margin: 0;
+  padding: 0;
+  background: rgb(46, 45, 45);
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .sucesso {
+    padding: 10rem;
+  }
+}
